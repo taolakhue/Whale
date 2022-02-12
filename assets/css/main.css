@@ -98,11 +98,14 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", Helvetica, sans-serif;
+		/*font-family: "Roboto", Helvetica, sans-serif;*/
+		font-family: catamaran,sans-serif;
+		font-weight: 200;
+		font-style: normal;
 		font-size: 15pt;
-		font-weight: 100;
 		line-height: 1.75em;
 	}
+
 
 	a {
 		-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3401,7 +3404,9 @@ input, select, textarea {
       10px 0 24px #0ff;
 	*/
 }
-
+.opacity_class{
+	opacity:0.5;
+}
 .item1 {
 	
 	margin: 50px auto;
@@ -4138,9 +4143,9 @@ input, select, textarea {
 			.spotlight .image.main {
 				max-height: 50vh;
 			}
-
+			/*change made*/
 			.spotlight .content {
-				padding: 3em 1.25em 1em 1.25em !important;
+				padding: 5em 1.25em 2.25em 1.25em !important;
 			}
 
 		/* Wrapper */
