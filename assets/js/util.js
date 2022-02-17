@@ -16,7 +16,17 @@
 				indent = Math.max(0, $this.parents('li').length - 1),
 				href = $this.attr('href'),
 				target = $this.attr('target');
-
+			
+			var text
+			if ($this.attr('class')=='icon brands fa-twitter'){
+				text='Twitter'
+			}else if($this.attr('class')=='icon brands fa-discord'){
+				text='Discord'
+			}else if($this.attr('class')=='opensea'){
+				text='Opensea'
+			}else if($this.attr('class')=='icon brands fa-instagram'){
+				text='Instagram'
+			}
 			b.push(
 				'<a ' +
 					'class="link depth-' + indent + '"' +
@@ -24,7 +34,7 @@
 					( (typeof href !== 'undefined' && href != '') ? ' href="' + href + '"' : '') +
 				'>' +
 					'<span class="indent-' + indent + '"></span>' +
-					$this.text() +
+					text +
 				'</a>'
 			);
 
