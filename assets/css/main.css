@@ -1,7 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
-
+/*
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -32,7 +36,6 @@ body {
 ol, ul {
 	list-style: none;
 }
-
 
 blockquote, q {
 	quotes: none;
@@ -73,7 +76,6 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
-		scroll-behavior: smooth;
 	}
 
 	*, *:before, *:after {
@@ -82,7 +84,6 @@ input, select, textarea {
 
 	html, body {
 		background: #1c1d26;
-		
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,14 +99,12 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		/*font-family: "Roboto", Helvetica, sans-serif;*/
-		font-family: catamaran,sans-serif;
-		font-weight: 200;
-		font-style: normal;
+		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
+		font-weight: 100;
 		line-height: 1.75em;
 	}
-
+/*custom*/
 
 	a {
 		-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -139,7 +138,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: 300;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 4em 0 1.5em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -154,8 +153,8 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.35em;
-		line-height: 1.5em;
+		font-size: 32px;
+		line-height: 112%;
 	}
 
 	h4 {
@@ -751,7 +750,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 50%;
+			width: 33.33333%;
 		}
 
 		.row > .off-4 {
@@ -1548,7 +1547,7 @@ input, select, textarea {
 				}
 
 				.row > .col-12-medium {
-					width: 50%;
+					width: 100%;
 				}
 
 				.row > .off-12-medium {
@@ -2418,6 +2417,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		transform: scale(1.4);
 	}
 
 		.icon:before {
@@ -2525,7 +2525,6 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			background-image: url("images/overlay.png");
 			width: 100%;
 			height: 100%;
 			z-index: 1;
@@ -3141,18 +3140,15 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: transparent;
-			box-shadow:12px 12px 14px 12px #fff, -10px 0px 10px #5b2096;
+			border-color: #e44c65;
 		}
 
 		.spotlight.style2 .content {
-			border-color: transparent;
-			box-shadow:12px 12px 14px 12px #fff, -10px 0px 10px #5b2096;
+			border-color: #5480f1;
 		}
 
 		.spotlight.style3 .content {
-			border-color: transparent;
-			box-shadow:12px 12px 14px 12px #fff, -10px 0px 10px #5b2096;
+			border-color: #39c088;
 		}
 
 		.spotlight.inactive .content {
@@ -3224,7 +3220,7 @@ input, select, textarea {
 			.wrapper.style2 input[type="button"]:active,
 			.wrapper.style2 .button:hover,
 			.wrapper.style2 .button:active {
-				background-color: rgba(133, 42, 42, 0.075) !important;
+				background-color: rgba(255, 255, 255, 0.075) !important;
 				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5) !important;
 				color: #ffffff !important;
 			}
@@ -3373,67 +3369,7 @@ input, select, textarea {
 	}
 
 /* Header */
-#element1{
-	margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
 
-/* Custom */
-
-.heading{
-	border-radius: 100%;
-	max-width: 30%;
-	height:auto;
-	justify-content: center;
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-	margin-bottom: 25px;
-	/*
-	box-shadow:
-    inset 0 0 25px #fff,
-    inset 20px 0 25px violet,
-    inset -20px 0 25px #0ff,
-    inset 20px 0 10px violet,
-    inset -20px 0 10px #0ff,
-      0 0 10px #fff,
-      -10px 0 24px violet,
-      10px 0 24px #0ff;
-	*/
-}
-.opacity_class{
-	opacity:0.5;
-}
-.item1 {
-	
-	margin: 50px auto;
-	background: #ccc;
-	text-align: center;
-	color: #FFF;
-	box-sizing: border-box;
-  }
-#logo{
-	font-family: 'Lobster Two', cursive;
-	font-size:25px;
-}
-#header_description{
-	font-family: 'Rowdies', cursive;	font-weight:400;
-	font-size:200%;
-	line-height: 1.5;
-}
-	
-#small_header{
-	font-family: 'Open Sans', sans-serif;	font-weight:400;
-	font-size:150%;
-	line-height: 1.5;
-}
-.mission{
-	margin-top:10vw;
-	font-style:italic;
-}
 	#page-wrapper {
 		padding-top: 3.5em;
 	}
@@ -3462,12 +3398,12 @@ input, select, textarea {
 
 		#header nav {
 			position: absolute;
-			right: 3em;
+			right: 1em;
 			top: 0;
 		}
 
 			#header nav ul {
-				margin: 0;
+				margin: 0 1em 2em;
 			}
 
 				#header nav ul li {
@@ -3482,8 +3418,6 @@ input, select, textarea {
 						height: inherit;
 						line-height: inherit;
 						outline: 0;
-						font-size:1.5vw;
-						font-weight: bold;
 					}
 
 						#header nav ul li a.button, #header nav ul li span.button {
@@ -3518,11 +3452,10 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #193f6e;
+		background-color: #272833;
 		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
-		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
 		min-height: 100vh;
 		position: relative;
 		text-align: center;
@@ -3538,10 +3471,7 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-color:#1c1d26;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3549,7 +3479,6 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
-			
 		}
 
 		#banner .content {
@@ -3558,7 +3487,7 @@ input, select, textarea {
 			max-width: 95%;
 			padding: 6em;
 			position: relative;
-			text-align: center;
+			text-align: right;
 			vertical-align: middle;
 			z-index: 1;
 		}
@@ -3569,13 +3498,14 @@ input, select, textarea {
 			}
 
 				#banner .content header h2 {
-					font-size: 3.5em;
+					font-size: 2.5em;
 					margin: 0;
 				}
 
 				#banner .content header p {
 					margin: 0.5em 0 0 0;
 					top: 0;
+					text-align:center;
 				}
 
 			#banner .content .image {
@@ -3750,7 +3680,7 @@ input, select, textarea {
 					padding: 4.5em 2.5em 2.5em 2.5em !important;
 					position: relative;
 					right: auto !important;
-					text-align: left;
+					text-align: center;
 					top: auto !important;
 					width: 100% !important;
 				}
@@ -3903,7 +3833,6 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
 				min-height: calc(100vh - 44px);
 			}
 
@@ -3971,7 +3900,6 @@ input, select, textarea {
 					#titleBar .title a {
 						color: inherit;
 						border: 0;
-						font-family:"Lobster Two", cursive;
 					}
 
 				#titleBar .toggle {
@@ -4143,9 +4071,9 @@ input, select, textarea {
 			.spotlight .image.main {
 				max-height: 50vh;
 			}
-			/*change made*/
+
 			.spotlight .content {
-				padding: 5em 1.25em 2.25em 1.25em !important;
+				padding: 3em 1.25em 1em 1.25em !important;
 			}
 
 		/* Wrapper */
@@ -4179,7 +4107,99 @@ input, select, textarea {
 
 	}
 
-/*test custom*/
+/*spinning animation*/
+
+	@keyframes spin {
+		from{
+		transform: rotateY(0deg);
+		moz-transform: rotateY(0deg); 
+		ms-transform: rotateY(0deg); 
+		}
+		to{
+		transform: rotateY(360deg);
+		moz-transform: rotateY(360deg); 
+		ms-transform: rotateY(360deg); 
+		}
+	   }
+	   @-webkit-keyframes spin{
+		from{-webkit-transform: rotateY(0deg);}
+		to{-webkit-transform: rotateY(360deg);}
+	   }
+	   .imageSpin{
+		animation-name: spin;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+		animation-duration: 5s;
+		-webkit-animation-name: spin;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-duration: 5s;
+	   }
+/* custom for front*/
+	   .heading{
+		border-radius: 100%;
+		max-width: 30%;
+		height:auto;
+		justify-content: center;
+		display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		margin-bottom: 25px;
+		/*
+		box-shadow:
+		inset 0 0 25px #fff,
+		inset 20px 0 25px violet,
+		inset -20px 0 25px #0ff,
+		inset 20px 0 10px violet,
+		inset -20px 0 10px #0ff,
+		  0 0 10px #fff,
+		  -10px 0 24px violet,
+		  10px 0 24px #0ff;
+		*/
+	}
+	.opacity_class{
+		opacity:0.5;
+	}
+	.item1 {
+		
+		margin: 50px auto;
+		background: #ccc;
+		text-align: center;
+		color: #FFF;
+		box-sizing: border-box;
+	  }
+	#logo{
+		font-family: 'Lobster Two', cursive;
+		font-size:25px;
+	}
+	#header_description{
+		font-family: 'Rowdies', cursive;	font-weight:400;
+		font-size:200%;
+		line-height: 1.5;
+		text-align:center;
+	}
+		
+	#small_header{
+		font-family: 'Open Sans', sans-serif;	font-weight:400;
+		font-size:150%;
+		line-height: 1.5;
+	}
+	.mission{
+		margin-top:10vw;
+		font-style:italic;
+	}
+
+	
+	.text-span-11{
+	background-image:repeating-radial-gradient(circle farthest-corner at 100% 100%,#6a5eda,#7f8fd4);
+	background-position:130% 50%,0 0;
+	background-size:231px 231px,auto;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+	/*parralax*/
+	/*test custom*/
 html {
 	scroll-behavior: smooth;
   }
