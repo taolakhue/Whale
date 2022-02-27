@@ -155,7 +155,7 @@ input, select, textarea {
 	h3 {
 		font-size: 32px;
 		line-height: 112%;
-		margin: 4em 0 1.5em 0;
+		margin: 2em 0 1.5em 0;
 	}
 
 	h4 {
@@ -781,7 +781,7 @@ input, select, textarea {
 		.row > .off-7 {
 			margin-left: 58.33333%;
 		}
-
+/*change*/
 		.row > .col-8 {
 			width: 66.66667%;
 		}
@@ -3456,7 +3456,7 @@ input, select, textarea {
 	#header h1 div {
 		margin: 10px;
 		display: inline-block;
-		margin-left: 30vw;
+		margin-left: 32vw;
 	}
 
 		#header h1 a{
@@ -4137,32 +4137,17 @@ input, select, textarea {
 
 /*spinning animation*/
 
-	@keyframes spin {
-		from{
-		transform: rotateY(0deg);
-		moz-transform: rotateY(0deg); 
-		ms-transform: rotateY(0deg); 
-		}
-		to{
-		transform: rotateY(360deg);
-		moz-transform: rotateY(360deg); 
-		ms-transform: rotateY(360deg); 
-		}
-	   }
-	   @-webkit-keyframes spin{
-		from{-webkit-transform: rotateY(0deg);}
-		to{-webkit-transform: rotateY(360deg);}
-	   }
-	   .imageSpin{
-		animation-name: spin;
-		animation-timing-function: linear;
-		animation-iteration-count: infinite;
-		animation-duration: 5s;
-		-webkit-animation-name: spin;
-		-webkit-animation-timing-function: linear;
-		-webkit-animation-iteration-count: infinite;
-		-webkit-animation-duration: 5s;
-	   }
+.square {
+	transform: rotateY(45deg);
+	animation: rotateAnimation 10s linear infinite;
+}
+
+@keyframes rotateAnimation {
+	from {transform: rotateY(45deg);}
+	to {transform: rotateY(225deg);}
+}
+
+	   
 /* custom for front*/
 	   .heading{
 		border-radius: 100%;
@@ -4656,3 +4641,11 @@ html {
 	  font-family: "Roboto", Helvetica,sans-serif;
 	  font-weight:400;
   }
+
+img#icon_1{
+	transform:scale(3);
+	background:transparent
+}
+  
+/* collage */
+
